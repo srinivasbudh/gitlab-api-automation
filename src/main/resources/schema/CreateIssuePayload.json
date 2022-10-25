@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "assignee_id": {
+      "type": "integer"
+    },
+    "assignee_ids ": {
+      "type": "integer"
+    },
+    "confidential": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "discussion_to_resolve": {
+      "type": "string"
+    },
+    "due_date": {
+      "type": "string"
+    },
+    "epic_id ": {
+      "type": "integer"
+    },
+    "epic_iid ": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "iid": {
+      "type": "integer"
+    },
+    "issue_type": {
+      "type": "string"
+    },
+    "labels": {
+      "type": "string"
+    },
+    "merge_request_to_resolve_discussions_of": {
+      "type": "integer"
+    },
+    "milestone_id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "weight ": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "title"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "assignee_id": {
+      "type": "integer"
+    },
+    "assignee_ids": {
+      "type": "integer"
+    },
+    "confidential": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "discussion_locked": {
+      "type": "string"
+    },
+    "due_date": {
+      "type": "string"
+    },
+    "labels": {
+      "type": "string"
+    },
+    "add_labels": {
+      "type": "string"
+    },
+    "remove_labels": {
+      "type": "string"
+    },
+    "milestone_id": {
+      "type": "integer"
+    },
+    "state_event": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "issue_type": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "epic_id": {
+      "type": "integer"
+    },
+    "epic_iid": {
+      "type": "integer"
+    }
+  }
+}
